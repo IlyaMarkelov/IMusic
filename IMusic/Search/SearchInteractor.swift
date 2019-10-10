@@ -1,0 +1,26 @@
+//
+//  SearchInteractor.swift
+//  IMusic
+//
+//  Created by Илья Маркелов on 10.10.2019.
+//  Copyright (c) 2019 Илья Маркелов. All rights reserved.
+//
+
+import UIKit
+
+protocol SearchBusinessLogic {
+  func makeRequest(request: Search.Model.Request.RequestType)
+}
+
+class SearchInteractor: SearchBusinessLogic {
+
+  var presenter: SearchPresentationLogic?
+  var service: SearchService?
+  
+  func makeRequest(request: Search.Model.Request.RequestType) {
+    if service == nil {
+      service = SearchService()
+    }
+  }
+  
+}
