@@ -17,6 +17,7 @@
 		98824A99234F13AF0089DADC /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98824A98234F13AF0089DADC /* SearchViewController.swift */; };
 		98824A9B234F153A0089DADC /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 98824A9A234F153A0089DADC /* Contents.json */; };
 		98824A9D234F23220089DADC /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98824A9C234F23220089DADC /* SearchResponse.swift */; };
+		98824A9F234F2FE00089DADC /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98824A9E234F2FE00089DADC /* NetworkService.swift */; };
 		F9465DDDB7F7D640DCD4B991 /* Pods_IMusic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADF63E511D63A7ED4442D43 /* Pods_IMusic.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,7 @@
 		98824A98234F13AF0089DADC /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		98824A9A234F153A0089DADC /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		98824A9C234F23220089DADC /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
+		98824A9E234F2FE00089DADC /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		BADF63E511D63A7ED4442D43 /* Pods_IMusic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IMusic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED06DF1560B02CD11AEB1AE0 /* Pods-IMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMusic.release.xcconfig"; path = "Target Support Files/Pods-IMusic/Pods-IMusic.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,6 +95,7 @@
 				98824A86234F11620089DADC /* ViewController.swift */,
 				98824A96234F12A90089DADC /* MainTabBarController.swift */,
 				98824A98234F13AF0089DADC /* SearchViewController.swift */,
+				98824A9E234F2FE00089DADC /* NetworkService.swift */,
 				98824A9C234F23220089DADC /* SearchResponse.swift */,
 				98824A88234F11620089DADC /* Main.storyboard */,
 				98824A9A234F153A0089DADC /* Contents.json */,
@@ -225,6 +228,7 @@
 				98824A83234F11620089DADC /* AppDelegate.swift in Sources */,
 				98824A97234F12A90089DADC /* MainTabBarController.swift in Sources */,
 				98824A85234F11620089DADC /* SceneDelegate.swift in Sources */,
+				98824A9F234F2FE00089DADC /* NetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
