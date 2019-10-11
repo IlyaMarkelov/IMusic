@@ -29,6 +29,8 @@
 		98824AC5234F66260089DADC /* TrackCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98824AC4234F66260089DADC /* TrackCell.xib */; };
 		98824AC7234F66420089DADC /* TrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98824AC6234F66420089DADC /* TrackCell.swift */; };
 		98824ACC23507F940089DADC /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98824ACB23507F940089DADC /* FooterView.swift */; };
+		98824AD0235087100089DADC /* TrackDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98824ACF235087100089DADC /* TrackDetailView.xib */; };
+		98824AD22350872B0089DADC /* TrackDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98824AD12350872B0089DADC /* TrackDetailView.swift */; };
 		F9465DDDB7F7D640DCD4B991 /* Pods_IMusic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADF63E511D63A7ED4442D43 /* Pods_IMusic.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +60,8 @@
 		98824AC4234F66260089DADC /* TrackCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackCell.xib; sourceTree = "<group>"; };
 		98824AC6234F66420089DADC /* TrackCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCell.swift; sourceTree = "<group>"; };
 		98824ACB23507F940089DADC /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		98824ACF235087100089DADC /* TrackDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackDetailView.xib; sourceTree = "<group>"; };
+		98824AD12350872B0089DADC /* TrackDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDetailView.swift; sourceTree = "<group>"; };
 		BADF63E511D63A7ED4442D43 /* Pods_IMusic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IMusic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED06DF1560B02CD11AEB1AE0 /* Pods-IMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMusic.release.xcconfig"; path = "Target Support Files/Pods-IMusic/Pods-IMusic.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,6 +136,8 @@
 		98824AA0234F34910089DADC /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				98824ACE235086F50089DADC /* TrackDetailView */,
+				98824ACD235086E80089DADC /* New Group */,
 				98824AC923507F630089DADC /* FooterView */,
 				98824AC3234F66070089DADC /* Cell */,
 				98824ABE234F3B580089DADC /* SearchViewController.storyboard */,
@@ -185,6 +191,22 @@
 				98824ACB23507F940089DADC /* FooterView.swift */,
 			);
 			path = FooterView;
+			sourceTree = "<group>";
+		};
+		98824ACD235086E80089DADC /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		98824ACE235086F50089DADC /* TrackDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				98824ACF235087100089DADC /* TrackDetailView.xib */,
+				98824AD12350872B0089DADC /* TrackDetailView.swift */,
+			);
+			path = TrackDetailView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +273,7 @@
 				98824A8C234F116A0089DADC /* Assets.xcassets in Resources */,
 				98824A8A234F11620089DADC /* Main.storyboard in Resources */,
 				98824AC5234F66260089DADC /* TrackCell.xib in Resources */,
+				98824AD0235087100089DADC /* TrackDetailView.xib in Resources */,
 				98824A9B234F153A0089DADC /* Contents.json in Resources */,
 				98824ABF234F3B580089DADC /* SearchViewController.storyboard in Resources */,
 			);
@@ -320,6 +343,7 @@
 				98824ABA234F35790089DADC /* SearchModels.swift in Sources */,
 				98824A85234F11620089DADC /* SceneDelegate.swift in Sources */,
 				98824AB7234F35790089DADC /* SearchPresenter.swift in Sources */,
+				98824AD22350872B0089DADC /* TrackDetailView.swift in Sources */,
 				98824A9F234F2FE00089DADC /* NetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
