@@ -28,6 +28,7 @@
 		98824AC1234F3DD30089DADC /* UIViewController + StoryBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98824AC0234F3DD30089DADC /* UIViewController + StoryBoard.swift */; };
 		98824AC5234F66260089DADC /* TrackCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98824AC4234F66260089DADC /* TrackCell.xib */; };
 		98824AC7234F66420089DADC /* TrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98824AC6234F66420089DADC /* TrackCell.swift */; };
+		98824ACC23507F940089DADC /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98824ACB23507F940089DADC /* FooterView.swift */; };
 		F9465DDDB7F7D640DCD4B991 /* Pods_IMusic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADF63E511D63A7ED4442D43 /* Pods_IMusic.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		98824AC0234F3DD30089DADC /* UIViewController + StoryBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + StoryBoard.swift"; sourceTree = "<group>"; };
 		98824AC4234F66260089DADC /* TrackCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackCell.xib; sourceTree = "<group>"; };
 		98824AC6234F66420089DADC /* TrackCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCell.swift; sourceTree = "<group>"; };
+		98824ACB23507F940089DADC /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 		BADF63E511D63A7ED4442D43 /* Pods_IMusic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IMusic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED06DF1560B02CD11AEB1AE0 /* Pods-IMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMusic.release.xcconfig"; path = "Target Support Files/Pods-IMusic/Pods-IMusic.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -130,6 +132,7 @@
 		98824AA0234F34910089DADC /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				98824AC923507F630089DADC /* FooterView */,
 				98824AC3234F66070089DADC /* Cell */,
 				98824ABE234F3B580089DADC /* SearchViewController.storyboard */,
 				98824AB4234F35790089DADC /* SearchViewController.swift */,
@@ -174,6 +177,14 @@
 				98824A9C234F23220089DADC /* SearchResponse.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		98824AC923507F630089DADC /* FooterView */ = {
+			isa = PBXGroup;
+			children = (
+				98824ACB23507F940089DADC /* FooterView.swift */,
+			);
+			path = FooterView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +310,7 @@
 				98824A9D234F23220089DADC /* SearchResponse.swift in Sources */,
 				98824ABC234F35790089DADC /* SearchInteractor.swift in Sources */,
 				98824A83234F11620089DADC /* AppDelegate.swift in Sources */,
+				98824ACC23507F940089DADC /* FooterView.swift in Sources */,
 				98824AC7234F66420089DADC /* TrackCell.swift in Sources */,
 				98824AC1234F3DD30089DADC /* UIViewController + StoryBoard.swift in Sources */,
 				98824A97234F12A90089DADC /* MainTabBarController.swift in Sources */,
