@@ -137,7 +137,6 @@
 			isa = PBXGroup;
 			children = (
 				98824ACE235086F50089DADC /* TrackDetailView */,
-				98824ACD235086E80089DADC /* New Group */,
 				98824AC923507F630089DADC /* FooterView */,
 				98824AC3234F66070089DADC /* Cell */,
 				98824ABE234F3B580089DADC /* SearchViewController.storyboard */,
@@ -191,13 +190,6 @@
 				98824ACB23507F940089DADC /* FooterView.swift */,
 			);
 			path = FooterView;
-			sourceTree = "<group>";
-		};
-		98824ACD235086E80089DADC /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
 			sourceTree = "<group>";
 		};
 		98824ACE235086F50089DADC /* TrackDetailView */ = {
