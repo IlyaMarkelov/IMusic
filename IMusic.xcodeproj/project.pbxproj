@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98435A762354ABC500AD42D6 /* CMTime + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98435A752354ABC500AD42D6 /* CMTime + Extension.swift */; };
 		98824A83234F11620089DADC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98824A82234F11620089DADC /* AppDelegate.swift */; };
 		98824A85234F11620089DADC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98824A84234F11620089DADC /* SceneDelegate.swift */; };
 		98824A87234F11620089DADC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98824A86234F11620089DADC /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		7FFFC73B9CE4F59E730FFA8F /* Pods-IMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMusic.debug.xcconfig"; path = "Target Support Files/Pods-IMusic/Pods-IMusic.debug.xcconfig"; sourceTree = "<group>"; };
+		98435A752354ABC500AD42D6 /* CMTime + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CMTime + Extension.swift"; sourceTree = "<group>"; };
 		98824A7F234F11620089DADC /* IMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98824A82234F11620089DADC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98824A84234F11620089DADC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				98824AC0234F3DD30089DADC /* UIViewController + StoryBoard.swift */,
+				98435A752354ABC500AD42D6 /* CMTime + Extension.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -326,6 +329,7 @@
 				98824ABC234F35790089DADC /* SearchInteractor.swift in Sources */,
 				98824A83234F11620089DADC /* AppDelegate.swift in Sources */,
 				98824ACC23507F940089DADC /* FooterView.swift in Sources */,
+				98435A762354ABC500AD42D6 /* CMTime + Extension.swift in Sources */,
 				98824AC7234F66420089DADC /* TrackCell.swift in Sources */,
 				98824AC1234F3DD30089DADC /* UIViewController + StoryBoard.swift in Sources */,
 				98824A97234F12A90089DADC /* MainTabBarController.swift in Sources */,

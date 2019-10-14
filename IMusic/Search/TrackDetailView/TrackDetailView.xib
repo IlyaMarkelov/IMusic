@@ -144,7 +144,7 @@
             <viewLayoutGuide key="safeArea" id="Lh5-SZ-mtt"/>
             <connections>
                 <outlet property="authorTitleLabel" destination="E5d-eL-9fv" id="yAB-jV-aDW"/>
-                <outlet property="currentTimeLabel" destination="Irb-4O-GQK" id="KmY-46-RYT"/>
+                <outlet property="currentTimeLabel" destination="ooX-p2-21D" id="6V5-r7-B2u"/>
                 <outlet property="currentTimeSlider" destination="9xB-YS-wM6" id="KLc-Nv-Aif"/>
                 <outlet property="durationLabel" destination="Irb-4O-GQK" id="qu7-x5-lQZ"/>
                 <outlet property="playPauseButton" destination="aPy-5w-oTl" id="vlz-la-euD"/>
